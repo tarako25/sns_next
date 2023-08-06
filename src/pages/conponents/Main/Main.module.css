@@ -1,0 +1,79 @@
+.main{
+    width:70%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainbox{
+    width:92.5%;
+    border-radius: 5px;
+    height: 90%;
+    margin:20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.postbox{
+    width:95%;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile_box{
+    display: flex;
+    align-items: center;
+    width:90%;
+    background-color: rgba(0, 255, 255, 0);
+    text-align: left;
+    margin-top:10px;
+}
+.profile_img{
+    border-radius: 50px;;
+    width:50px;
+    height: 50px;
+}
+.profile_name{
+    font-weight: bold;
+    margin: 0 15px;
+}
+.post_msg{
+    width:90%;
+    height: 50px;
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 0 20px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    text-align: left;
+    justify-content: baseline;
+    align-items: center;
+}
+.reaction{
+    margin:10px 0;
+    width:90%;
+    background-color: rgba(255, 228, 196, 0);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.ex_fav{
+    width:37.5px;
+    height: 100%;
+    color: white;
+    background-color: rgb(145, 145, 145);
+}
+.button{
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left:15px;
+    color:white;
+    background-color: rgb(145, 145, 145);
+}
